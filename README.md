@@ -24,3 +24,8 @@ groups
 
 
 One (user) to many (restaurants) relationship
+
+Required dependencies:
+$ brew install heroku
+==> Installing dependencies for heroku: icu4c, node
+==> Installing heroku dependency: icu4c
