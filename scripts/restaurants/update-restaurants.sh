@@ -3,8 +3,8 @@ curl --include --request PATCH "http://localhost:4741/restaurants/${ID}" \
 --header "Content-Type: application/json" \
 --header "Authorization: Token token=${TOKEN}" \
 --data '{
-  "team": {
-    "name": "'"${NAME}"'",
-    "location": "'"${LOCATION}"'"
+  "restaurant": {
+    "restaurant_name": "'"${PLACE}"'",
+    "cuisine": "'"${CUISINE}"'"
   }
 }'
