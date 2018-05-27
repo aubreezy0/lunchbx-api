@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class RestaurantsController < ApplicationController
-  before_action :set_restaurant, only: [:show, :update, :destroy]
+  before_action :set_restaurant, only: %i[index show update]
 
   # GET /restaurants
   def index
@@ -46,6 +48,6 @@ class RestaurantsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def restaurant_params
-      params.require(:restaurant).permit(:restaurant_name, :cuisine, :user)
+      params.require(:restaurant).permit(:id, :restaurant_name, :cuisine, :user)
     end
 end
