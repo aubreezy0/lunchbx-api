@@ -23,6 +23,8 @@ Ruby on Rails
 
 #### <a href="https://imgur.com/ky6iYhZ" target="_blank">API Routes and Methods</a>
 
+<img src="https://imgur.com/ky6iYhZ/">
+
 ## How do I play?
 
 #### Easy as 1, 2, 3:
