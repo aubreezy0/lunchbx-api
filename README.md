@@ -4,7 +4,8 @@
 <ul>
 <li>Front End: https://github.com/aubreezy0/lunchbx-client</li>
 <li>Back End: https://github.com/aubreezy0/lunchbx-api</li>
-<li>Deployed: https://aubreezy0.github.io/lunchbx-client</li>
+<li>Deployed Client: https://aubreezy0.github.io/lunchbx-client</li>
+<li> Deployed API: https://calm-journey-36314.herokuapp.com/</li>
 </ul>
 
 ## Process
